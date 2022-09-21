@@ -90,7 +90,7 @@ Resources:
     Type: AWS::EC2::Instance
     Properties:
       AvailabilityZone: eu-west-2a
-      ImageId: ami-0758d98b134137d18
+      ImageId: ami-00785f4835c6acf64
       KeyName: estockmarket-kp
       InstanceType: t2.micro
       SecurityGroups:
