@@ -79,7 +79,7 @@ Resources:
                   - 'dynamodb:Update*'
                   - 'dynamodb:Get*'
                 Resource: '*'
-      RoleName: EC2DynamoDBRole
+      RoleName: EC2DynamoDBRole2
   IAMInstanceProfile:
     Type: AWS::IAM::InstanceProfile
     Properties:
